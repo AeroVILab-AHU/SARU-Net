@@ -45,3 +45,40 @@ You can directly run the following command to test shadow detection and removal:
 
 ```bash
 python demo.py
+```
+
+### Note
+Before running, ensure that the file paths in demo.py are correctly configured to point to the pretrained models and datasets.
+
+## 5. Train DBSFM Model
+To train the DBSFM model, follow these steps:
+
+Modify the relevant configurations in train.py (e.g., dataset paths, model parameters, etc.).
+Run the following command:
+
+```bash
+python train.py
+```
+## 6. Test Shadow Detection Results
+To test shadow detection results, follow these steps:
+
+Modify the relevant configurations in test.py (e.g., dataset paths, model paths, etc.).
+Run the following command:
+
+```bash
+python test.py
+```
+## 7. Quantitative Evaluation for Single Image Shadow Removal
+To perform quantitative evaluation for single image shadow removal, follow these steps:
+
+Modify the relevant configurations in quantity.py (e.g., image paths, model paths, etc.).
+Run the following command:
+
+```bash
+python quantity.py
+```
+### Notes
+
+Ensure all file paths are correctly configured to avoid errors during execution.
+Before running the code, make sure the required Python environment and dependencies (e.g., PyTorch) are installed.
+If issues arise, verify the integrity of the dataset and model files or refer to other documentation in the project.
