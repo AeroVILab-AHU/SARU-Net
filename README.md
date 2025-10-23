@@ -82,3 +82,6 @@ python quantity.py
 Ensure all file paths are correctly configured to avoid errors during execution.
 Before running the code, make sure the required Python environment and dependencies (e.g., PyTorch) are installed.
 If issues arise, verify the integrity of the dataset and model files or refer to other documentation in the project.
+```bash
+pip install -r requirements.txt
+```
